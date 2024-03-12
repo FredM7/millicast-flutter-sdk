@@ -13,7 +13,8 @@ Pod::Spec.new do |s|
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
   # s.dependency 'WebRTC-SDK', '104.5112.09'
-  s.dependency 'WebRTC-SDK', '104.5112.17'
+  # s.dependency 'WebRTC-SDK', '104.5112.17'
+  s.dependency 'WebRTC-SDK', '114.5735.08'
   s.platform = :ios, '11.0'
 
   # Flutter.framework does not contain a i386 slice.
